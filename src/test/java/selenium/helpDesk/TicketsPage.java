@@ -18,7 +18,7 @@ public class TicketsPage extends BaseSeleniumPage {
     }
 
     /**
-     * Метод для поиска тикета 
+     * Метод для поиска тикета
      */
     public TicketPage findTicket(String str){
         searchFiled.sendKeys(str, Keys.ENTER);
